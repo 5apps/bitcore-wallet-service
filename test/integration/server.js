@@ -7037,7 +7037,7 @@ describe('Wallet service', function() {
     });
   });
 
-  describe('#scan', function() {
+  describe.only('#scan', function() {
     var server, wallet;
 
     describe('1-of-1 wallet (BIP44 & P2PKH)', function() {
